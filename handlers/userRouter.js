@@ -14,6 +14,13 @@ const handleSingleUser = (app, User) => {
         });
 };
 
+const handleLogin = (app, User) => {
+    app.route('/api/login')
+        .post((req,resp) => {
+            // not sure what to do
+        });
+};
+
 module.exports = {
     handleSingleUser
 }
